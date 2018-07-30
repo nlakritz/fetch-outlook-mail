@@ -2,6 +2,8 @@
 
 Uses Microsoft Outlook Mail REST API. First-time users must allow one-time app access at: https://login.microsoftonline.com/common/oauth2/v2.0/authorize?response_type=code&client_id=0a64808c-eeb9-40bf-8554-4e9d22791831&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauthorize&scope=openid%20profile%20offline_access%20User.Read%20Mail.Read&sso_reload=true
 
+If using directly through npm, please ignore: Client credentials must be provided by the user after creating an app: https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-app-registration
+
 Copyright (c) Microsoft. All rights reserved.
 
 ## Installation
