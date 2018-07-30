@@ -2,8 +2,8 @@ const request = require('request');
 const htmlToText = require('html-to-text');
 
 // These are constant, since they are required and unchanging properties of the client itself.
-const CLIENT_ID = '0a64808c-eeb9-40bf-8554-4e9d22791831';
-const CLIENT_SECRET = 'reonpYECT262lhMMG28;^;@';
+const CLIENT_ID = 'PLEASE PROVIDE -- SEE README FOR CLIENT SETUP INSTRUCTIONS';
+const CLIENT_SECRET = 'PLEASE PROVIDE -- SEE README FOR CLIENT SETUP INSTRUCTIONS ';
 const MAX = 1000;
 
 class Fetch {
