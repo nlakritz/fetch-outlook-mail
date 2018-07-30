@@ -46,9 +46,10 @@ describe(`Fetch test suite`, () => {
             let token = {
                 url: 'https://login.windows.net/common/oauth2/token', 
                 headers: { 'content-type': 'application/x-www-form-urlencoded' },
-                body: `resource=https%3A%2F%2Fgraph.microsoft.com%2F&grant_type=password&username=sample.address@foo.com&password=pass123&audience=https://someapi.com/api&scope=openid&client_id=0a64808c-eeb9-40bf-8554-4e9d22791831&client_secret=reonpYECT262lhMMG28;^;@`,
                 json: true };
-            expect(fetcher.tokenOptions).toEqual(token);
+            expect(fetcher.tokenOptions.url).toEqual(token.url);
+            expect(fetcher.tokenOptions.headers).toEqual(token.headers);
+            expect(fetcher.tokenOptions.json).toEqual(token.json);
         });
     });
     describe(`test setter functions`, () => {
