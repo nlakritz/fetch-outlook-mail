@@ -4,8 +4,8 @@
   "description": "Fetches email data from the Microsoft Outlook Mail API",
   "main": "index.js",
   "dependencies": {
-    "html-to-text": "^4.0.0",
-    "jest": "^23.4.1",
+    "html-to-text": "^7.0.0",
+    "jest": "^26.6.3",
     "request": "^2.87.0"
   },
   "devDependencies": {
@@ -20,11 +20,17 @@
   "scripts": {
     "test": "jest Fetch.test.js"
   },
-  "keywords": ["outlook", "mail", "email", "fetch mail", "outlook mail"],
+  "keywords": [
+    "outlook",
+    "mail",
+    "email",
+    "fetch mail",
+    "outlook mail"
+  ],
   "homepage": "https://github.com/nlakritz/fetch-outlook-mail",
-  "repository": { 
-    "type" : "git",
-    "url" : "https://github.com/nlakritz/fetch-outlook-mail"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nlakritz/fetch-outlook-mail"
   },
   "author": "Nathan Lakritz <natejl123@gmail.com>",
   "contributors": [
